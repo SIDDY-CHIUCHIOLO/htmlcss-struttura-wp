@@ -6,7 +6,7 @@
 }
 
 .layout{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -19,4 +19,45 @@
 .main-bg-giallo{
     background-color: #fdeb7e;
     height: 400px;
+}
+
+.main-container{
+    background-color: #2289ff;
+    height: 500px;
+}
+
+.main-header{
+    height:60px;
+    margin-bottom: 20px;
+}
+
+.main-bg-azzurro{
+    background-color: lightblue;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.colonna1-3{
+    height: 400px;
+    width: 20%;
+}
+.colonna1{
+    float: left;
+    margin-right: 10px;
+}
+
+.colonna2{
+    float: left;
+    height: 400px;
+    margin-right: 10px;
+    width: calc(60% - 20px);
+
+}
+
+.colonna3{
+    float: right;
 }
