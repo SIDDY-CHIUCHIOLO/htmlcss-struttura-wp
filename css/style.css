@@ -5,10 +5,18 @@
     padding: 0;
 }
 
-.header-bg-rosa{
+.layout{
     width: 80%;
-    height: 100px;
-    background-color: #ff62d2;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.header-bg-rosa{
+    height: 100px;
+    background-color: #ff62d2;
+}
+
+.main-bg-giallo{
+    background-color: #fdeb7e;
+    height: 400px;
 }
