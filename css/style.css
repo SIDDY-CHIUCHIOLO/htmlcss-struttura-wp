@@ -5,35 +5,32 @@
     padding: 0;
 }
 
-.layout{
+.container{
     width: 60%;
     margin: 0 auto;
 }
 
-.header-bg-rosa{
+.top-menu{
     height: 100px;
     background-color: #ff62d2;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.main-bg-giallo{
+.jumbotron{
     background-color: #fdeb7e;
     height: 400px;
     margin-bottom: 20px ;
 }
 
-.main-container{
+div#content{
     background-color: #2289ff;
-    height: 500px;
+    margin-bottom: 5px;
 }
 
-.main-header{
+header{
     height:60px;
     margin-bottom: 20px;
-}
-
-.main-bg-azzurro{
     background-color: lightblue;
 }
 
@@ -43,29 +40,25 @@
     display: table;
 }
 
-.colonna1-3{
+aside{
     height: 400px;
     width: 20%;
-}
-.colonna1{
     float: left;
-    margin-right: 10px;
+    background-color: lightblue;
+    margin-bottom: 10px;
 }
 
-.colonna2{
+article{
     float: left;
     height: 400px;
-    margin-right: 10px;
+    margin: auto 10px ;
     width: calc(60% - 20px);
+    background-color: lightblue;
 }
 
-.colonna3{
-    float: right;
-}
 
-.footer-bg-viola{
+.footer-text{
     background-color: #c437e9;
     height: 40px;
-    margin-top: 5px;
     margin-bottom: 40px;
 }
